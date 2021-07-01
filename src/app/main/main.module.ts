@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
+import { CafeComponent } from './cafe/cafe.component';
+
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    CafeComponent,
+  
   ],
   imports: [
     CommonModule,
@@ -16,7 +20,8 @@ import { RouterModule } from '@angular/router';
   ],
   exports:[
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    CafeComponent
   ]
 })
 export class MainModule { }
