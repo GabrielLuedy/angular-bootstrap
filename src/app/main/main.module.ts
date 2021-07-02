@@ -4,6 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
 import { CafeComponent } from './cafe/cafe.component';
+import { ComidasComponent } from './comidas/comidas.component';
+import { SobremesaComponent } from './sobremesa/sobremesa.component';
+import { OutraCoisaComponent } from './outra-coisa/outra-coisa.component';
+import { BebidasComponent } from './bebidas/bebidas.component';
 
 
 
@@ -12,6 +16,10 @@ import { CafeComponent } from './cafe/cafe.component';
     HomeComponent,
     ContactComponent,
     CafeComponent,
+    ComidasComponent,
+    SobremesaComponent,
+    OutraCoisaComponent,
+    BebidasComponent,
   
   ],
   imports: [
@@ -21,7 +29,9 @@ import { CafeComponent } from './cafe/cafe.component';
   exports:[
     HomeComponent,
     ContactComponent,
-    CafeComponent
+    CafeComponent,
+    ComidasComponent,
+    SobremesaComponent
   ]
 })
 export class MainModule { }
